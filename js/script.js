@@ -11,15 +11,18 @@ let app = new Vue(
         data: {
             testo: "Paesaggio all'alba",
             immagine: 'img/paesaggio1.jpg',
+            colore: "light"
         },
         methods: {
             cambiaImmagine: function () {
                 if (this.immagine == 'img/paesaggio1.jpg' && this.testo == "Paesaggio all'alba") {
                     this.immagine = 'img/paesaggio2.jpg';
                     this.testo = "Paesaggio al tramonto";
+                    this.colore = "dark"
                 } else {
                     this.immagine = 'img/paesaggio1.jpg';
                     this.testo = "Paesaggio all'alba";
+                    this.colore = "light"
                 }
             }
         }

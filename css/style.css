@@ -18,16 +18,17 @@
 }
 
 .dark {
-    background-color: #333;
-    color: #ccc;
+    background-color: hsl(268, 16%, 52%);
+    color: hsl(268, 30%, 30%);
 }
 .light {
-    background-color: #ccc;
-    color: #333;
+    background-color: hsl(16, 76%, 84%);
+    color: hsl(16, 40%, 40%);
 }
 
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* color: #333; */
 }
 
 button {
